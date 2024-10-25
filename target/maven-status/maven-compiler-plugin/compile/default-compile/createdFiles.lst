@@ -1,0 +1,5 @@
+com\upiiz\orm\services\ClienteService.class
+com\upiiz\orm\models\ClienteEntity.class
+com\upiiz\orm\controllers\ClienteController.class
+com\upiiz\orm\repositories\ClienteRepository.class
+com\upiiz\orm\OrmApplication.class
