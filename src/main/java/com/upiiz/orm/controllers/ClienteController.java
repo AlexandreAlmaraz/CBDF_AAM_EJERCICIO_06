@@ -26,4 +26,10 @@ public class ClienteController {
         return ResponseEntity.ok(clienteService.guardarCliente(cliente));
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<ClienteEntity> updateCliente(@PathVariable Long id, @RequestBody ClienteEntity cliente) {
+        cliente.setId(id); // Aseguramos que el ID sea el correcto
+        return ResponseEntity.ok(clienteService.updateCliente(cliente));
+    }
+
 }

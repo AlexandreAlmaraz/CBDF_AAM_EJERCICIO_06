@@ -24,4 +24,9 @@ public class ClienteService {
         return clienteRepository.save(cliente);
     }
 
+    // Actualizar cliente
+    public ClienteEntity updateCliente(ClienteEntity cliente) {
+        return clienteRepository.save(cliente);
+    }
+
 }
